@@ -140,32 +140,25 @@ const Hero = () => {
           />
         </div>
 
-        <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
-          G<b>A</b>MING
+        <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75 drop-shadow-[0_1.5px_1.2px_rgba(0,0,0,1)]">
+          Wentz
         </h1>
 
         <div className="absolute left-0 top-0 z-40 size-full">
           <div className="mt-24 px-5 sm:px-10">
-            <h1 className="special-font hero-heading text-blue-100">
-              redefi<b>n</b>e
+            <h1 className="special-font hero-heading text-blue-100 drop-shadow-[0_1.5px_1.2px_rgba(0,0,0,1)]">
+              Gabriel
             </h1>
 
-            <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
-              Enter the Metagame Layer <br /> Unleash the Play Economy
+            <p className="mb-5 max-w-64 font-robert-regular text-blue-100 drop-shadow-[0_1.5px_1.2px_rgba(0,0,0,1)]">
+              Desenvolvedor Web Full Stack, react, node, express, javascript
             </p>
-
-            <Button
-              id="watch-trailer"
-              title="Watch trailer"
-              leftIcon={<TiLocationArrow />}
-              containerClass="bg-yellow-300 flex-center gap-1"
-            />
           </div>
         </div>
       </div>
 
       <h1 className="special-font hero-heading absolute bottom-5 right-5 text-black">
-        G<b>A</b>MING
+        Wentz
       </h1>
     </div>
   );

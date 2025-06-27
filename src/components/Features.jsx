@@ -67,9 +67,9 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
       />
       <div className="relative z-10 flex size-full flex-col justify-between p-5 text-blue-50">
         <div>
-          <h1 className="bento-title special-font">{title}</h1>
+          <h1 className="bento-title special-font drop-shadow-[0_1.5px_1.2px_rgba(0,0,0,1)]">{title}</h1>
           {description && (
-            <p className="mt-3 max-w-64 text-xs md:text-base">{description}</p>
+            <p className="mt-3 max-w-64 text-xs md:text-base drop-shadow-[0_1.5px_1.2px_rgba(0,0,0,1)] bg-blue-800 p-1">{description}</p>
           )}
         </div>
 
@@ -99,16 +99,14 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
 };
 
 const Features = () => (
-  <section className="bg-black pb-52">
+  <section className="bg-black pb-52" id="projetos">
     <div className="container mx-auto px-3 md:px-10">
       <div className="px-5 py-32">
-        <p className="font-circular-web text-lg text-blue-50">
-          Into the Metagame Layer
+        <p className="font-circular-web max-w-md text-lg text-blue-50">
+          Seja para impulcionar seu negócio, ou automatizar tarefas, meus projetos são desenvolvidos com foco em resultados e eficiência.
         </p>
         <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-          Immerse yourself in a rich and ever-expanding universe where a vibrant
-          array of products converge into an interconnected overlay experience
-          on your world.
+          Aqui estão alguns dos meus projetos mais recentes, cada um com uma história única e um propósito especial.
         </p>
       </div>
 
@@ -117,10 +115,10 @@ const Features = () => (
           src="videos/feature-1.mp4"
           title={
             <>
-              radia<b>n</b>t
+              Ricardo Alves personal trainer
             </>
           }
-          description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
+          description="Sistema desktop de gestão de treinos e acompanhamento de alunos e controle financeiro."
           isComingSoon
         />
       </BentoTilt>
@@ -131,11 +129,10 @@ const Features = () => (
             src="videos/feature-2.mp4"
             title={
               <>
-                zig<b>m</b>a
+                formulário setembro amarelo
               </>
             }
-            description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
-            isComingSoon
+            description="Formulário online personalizado com geração de relatório gráfico."
           />
         </BentoTilt>
 
@@ -144,11 +141,10 @@ const Features = () => (
             src="videos/feature-3.mp4"
             title={
               <>
-                n<b>e</b>xus
+                Tecminas
               </>
             }
-            description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
-            isComingSoon
+            description="Sistema para registro de manutenções realizadas."
           />
         </BentoTilt>
 
@@ -157,32 +153,21 @@ const Features = () => (
             src="videos/feature-4.mp4"
             title={
               <>
-                az<b>u</b>l
+                Alternativa
               </>
             }
-            description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."
-            isComingSoon
+            description="Sistema para gestão de orçamentos e financeira de recuperadora de veículos."
           />
         </BentoTilt>
 
-        <BentoTilt className="bento-tilt_2">
-          <div className="flex size-full flex-col justify-between bg-violet-300 p-5">
+        <BentoTilt className="bento-tilt_1">
+          <div className="flex size-full flex-col justify-between bg-gradient-to-br from to-blue-700 to from-purple-800 p-5">
             <h1 className="bento-title special-font max-w-64 text-black">
-              M<b>o</b>re co<b>m</b>ing s<b>o</b>on.
+              Mais em breve
             </h1>
 
             <TiLocationArrow className="m-5 scale-[5] self-end" />
           </div>
-        </BentoTilt>
-
-        <BentoTilt className="bento-tilt_2">
-          <video
-            src="videos/feature-5.mp4"
-            loop
-            muted
-            autoPlay
-            className="size-full object-cover object-center"
-          />
         </BentoTilt>
       </div>
     </div>
