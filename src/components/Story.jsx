@@ -108,7 +108,7 @@ const FloatingImage = () => {
           <div className="flex h-full w-fit flex-col items-center md:items-start">
             <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
               O futuro já chegou, e ele é digital. <br />
-              Transforme seu negócio e alcance novos horizontes com a gente.
+              Transforme seu negócio e alcance novos horizontes A G O R A.
               Ta esperendo o que? <br />
               <span className="text-blue-500">Vamos juntos nessa jornada!</span>
             </p>
